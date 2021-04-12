@@ -2,7 +2,7 @@ T = int(input())
 
 def sol(idx, sum):
     global count
-    if idx >= N:
+    if idx == N:
         return
     tmp = sum + A[idx]
     if tmp == K:
